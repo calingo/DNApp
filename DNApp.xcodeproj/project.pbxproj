@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A456C0A91A9A4CE300755A70 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A456C0A81A9A4CE300755A70 /* LoginViewController.swift */; };
 		A46FC1E41A87AE350056D9ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC1E31A87AE350056D9ED /* AppDelegate.swift */; };
 		A46FC1E61A87AE350056D9ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC1E51A87AE350056D9ED /* ViewController.swift */; };
 		A46FC1E91A87AE350056D9ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46FC1E71A87AE350056D9ED /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A456C0A81A9A4CE300755A70 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A46FC1DE1A87AE350056D9ED /* DNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46FC1E21A87AE350056D9ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46FC1E31A87AE350056D9ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				A46FC2031A87B7A50056D9ED /* Spring */,
 				A46FC1E31A87AE350056D9ED /* AppDelegate.swift */,
 				A46FC1E51A87AE350056D9ED /* ViewController.swift */,
+				A456C0A81A9A4CE300755A70 /* LoginViewController.swift */,
 				A46FC1E71A87AE350056D9ED /* Main.storyboard */,
 				A46FC1EA1A87AE350056D9ED /* Images.xcassets */,
 				A46FC1EC1A87AE350056D9ED /* LaunchScreen.xib */,
@@ -302,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A456C0A91A9A4CE300755A70 /* LoginViewController.swift in Sources */,
 				A46FC2361A87B7A50056D9ED /* TransitionManager.swift in Sources */,
 				A46FC1E61A87AE350056D9ED /* ViewController.swift in Sources */,
 				A46FC2311A87B7A50056D9ED /* SpringImageView.swift in Sources */,
@@ -523,6 +527,7 @@
 				A46FC1FF1A87AE350056D9ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A46FC2001A87AE350056D9ED /* Build configuration list for PBXNativeTarget "DNAppTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +536,7 @@
 				A46FC2021A87AE350056D9ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
